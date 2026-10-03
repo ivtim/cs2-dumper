@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-24 21:57:28.407679200 UTC
+// 2026-10-03 14:47:19.543224600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -1417,7 +1417,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_ullRegisteredAsItemID = 0x608; // uint64
         }
         // Parent: C_BasePlayerWeapon
-        // Field count: 56
+        // Field count: 57
         public static class C_CSWeaponBase {
             public const nint m_iWeaponGameplayAnimState = 0x19A8; // WeaponGameplayAnimState
             public const nint m_flWeaponGameplayAnimStateTimestamp = 0x19AC; // GameTime_t
@@ -1442,19 +1442,20 @@ namespace CS2Dumper.Schemas {
             public const nint m_flPostponeFireReadyFrac = 0x1A38; // float32
             public const nint m_bInReload = 0x1A3C; // bool
             public const nint m_nDeployTick = 0x1A40; // GameTick_t
-            public const nint m_flDroppedAtTime = 0x1A44; // GameTime_t
-            public const nint m_bIsHauledBack = 0x1A4C; // bool
-            public const nint m_bSilencerOn = 0x1A4D; // bool
-            public const nint m_flTimeSilencerSwitchComplete = 0x1A50; // GameTime_t
-            public const nint m_bStealthy = 0x1A54; // bool
-            public const nint m_bInSilentReloadSection = 0x1A55; // bool
-            public const nint m_flStealthHoldStartTime = 0x1A58; // GameTime_t
-            public const nint m_bReloadHeldSinceStart = 0x1A5C; // bool
-            public const nint m_flWeaponActionPlaybackRate = 0x1A60; // float32
-            public const nint m_iOriginalTeamNumber = 0x1A64; // int32
-            public const nint m_iMostRecentTeamNumber = 0x1A68; // int32
-            public const nint m_bDroppedNearBuyZone = 0x1A6C; // bool
-            public const nint m_flNextAttackRenderTimeOffset = 0x1A70; // float32
+            public const nint m_flAttackHoldStartTime = 0x1A44; // GameTime_t
+            public const nint m_flDroppedAtTime = 0x1A48; // GameTime_t
+            public const nint m_bIsHauledBack = 0x1A50; // bool
+            public const nint m_bSilencerOn = 0x1A51; // bool
+            public const nint m_flTimeSilencerSwitchComplete = 0x1A54; // GameTime_t
+            public const nint m_bStealthy = 0x1A58; // bool
+            public const nint m_bInSilentReloadSection = 0x1A59; // bool
+            public const nint m_flStealthHoldStartTime = 0x1A5C; // GameTime_t
+            public const nint m_bReloadHeldSinceStart = 0x1A60; // bool
+            public const nint m_flWeaponActionPlaybackRate = 0x1A64; // float32
+            public const nint m_iOriginalTeamNumber = 0x1A68; // int32
+            public const nint m_iMostRecentTeamNumber = 0x1A6C; // int32
+            public const nint m_bDroppedNearBuyZone = 0x1A70; // bool
+            public const nint m_flNextAttackRenderTimeOffset = 0x1A74; // float32
             public const nint m_bClearWeaponIdentifyingUGC = 0x1B20; // bool
             public const nint m_bVisualsDataSet = 0x1B21; // bool
             public const nint m_bUIWeapon = 0x1B22; // bool
@@ -3682,7 +3683,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_petItem = 0x1730; // C_EconItemView
         }
         // Parent: None
-        // Field count: 10
+        // Field count: 11
         public static class C_SmokeGrenadeProjectile {
             public const nint m_nSmokeEffectTickBegin = 0x1360; // int32
             public const nint m_bDidSmokeEffect = 0x1364; // bool
@@ -3692,8 +3693,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_VoxelFrameData = 0x1388; // C_NetworkUtlVectorBase<uint8>
             public const nint m_nVoxelFrameDataSize = 0x13A0; // int32
             public const nint m_nVoxelUpdate = 0x13A4; // int32
-            public const nint m_bSmokeVolumeDataReceived = 0x13A8; // bool
-            public const nint m_bSmokeEffectSpawned = 0x13A9; // bool
+            public const nint m_nSmokeLightProbeRegen = 0x13A8; // uint8
+            public const nint m_bSmokeVolumeDataReceived = 0x13A9; // bool
+            public const nint m_bSmokeEffectSpawned = 0x13AA; // bool
         }
         // Parent: None
         // Field count: 1
