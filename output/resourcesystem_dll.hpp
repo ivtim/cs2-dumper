@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-10-09 19:49:01.503279600 UTC
+// 2026-10-31 20:04:25.548870700 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: resourcesystem.dll
-        // Class count: 62
+        // Class count: 61
         // Enum count: 5
         namespace resourcesystem_dll {
             // Alignment: 4
@@ -359,13 +359,6 @@ namespace cs2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             namespace InfoForResourceTypeCCompositeMaterialKit {
-            }
-            // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            namespace InfoForResourceTypeCVMixListResource {
             }
             // Parent: None
             // Field count: 0
